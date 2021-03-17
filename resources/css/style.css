@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #FFF;
+    color: #555;
+    font-family: 'Lato','Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo{
+    height: 180px;
+    width:auto;
+    float: left;
+    margin-top: 25px;
+}
+
+.main-nav{
+    margin-top: 50px;
+    float: right;
+    list-style: none;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #FFF;
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:active,
+.main-nav li a:hover{
+    border-bottom: 3px solid #e67e22
+}
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.25s, border 0.25s, color 0.25s;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #efab6e;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    border: 1px solid #e67e22;
+    background-color: #e67e22;
+    color:#FFF;
+    margin-right: 23px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #e67e22;
+    /*background-color: #e67e22;*/
+    color:#e67e22;
+}
+
+h1{
+    color: #FFF;
+    font-size: 250%;
+    font-weight:300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    margin:0;
+    margin-bottom: 15px;
+}
+
+.btn-full:active,
+.btn-full:hover{
+    border: 1px solid #e67e22;
+    background-color: #efab6e;
+    color:#FFF;
+}
+
+.btn-ghost:active,
+.btn-ghost:hover{
+    border: 1px solid #e67e22;
+    /*background-color: #e67e22;*/
+    color:#FFF;
+}
+
