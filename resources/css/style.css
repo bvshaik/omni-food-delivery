@@ -1,3 +1,5 @@
+/*------------------------------------------BASIC SETUP--------------------------------------------------------------*/
+
 *{
     margin: 0;
     padding:0;
@@ -13,25 +15,12 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+
+/*------------------------------------------REUSABLE COMPONENTS--------------------------------------------------------------*/
+
 .row{
     max-width: 1140px;
     margin: 0 auto 0 auto;
-}
-
-header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url(img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-
-}
-
-.hero-text-box{
-    position: absolute;
-    width: 1140px;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .logo{
@@ -40,6 +29,8 @@ header{
     float: left;
     margin-top: 25px;
 }
+
+/*------------------------------------------NAVIGATIONS FROM MAIN HEADER SECTION--------------------------------------------------------------*/
 
 .main-nav{
     margin-top: 50px;
@@ -66,6 +57,21 @@ header{
 .main-nav li a:hover{
     border-bottom: 3px solid #e67e22
 }
+
+/*------------------------------------------HEADINGS--------------------------------------------------------------*/
+
+h1{
+    color: #FFF;
+    font-size: 250%;
+    font-weight:300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    margin:0;
+    margin-bottom: 15px;
+}
+
+/*------------------------------------------BUTTONS--------------------------------------------------------------*/
 
 .btn:link,
 .btn:visited{
@@ -97,17 +103,6 @@ header{
     color:#e67e22;
 }
 
-h1{
-    color: #FFF;
-    font-size: 250%;
-    font-weight:300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 4px;
-    margin:0;
-    margin-bottom: 15px;
-}
-
 .btn-full:active,
 .btn-full:hover{
     border: 1px solid #e67e22;
@@ -122,3 +117,20 @@ h1{
     color:#FFF;
 }
 
+/*------------------------------------------HEADER SECTION--------------------------------------------------------------*/
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
